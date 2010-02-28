@@ -1,0 +1,102 @@
+
+(defun color-theme-vibrant-ink ()
+  "Emacs Vibrant Ink"
+  (interactive)
+  (color-theme-install
+   '(color-theme-vibrant-ink
+     ((background-color . "#111111")
+      (background-mode . dark)
+      (border-color . "black")
+      (cursor-color . "white")
+      (foreground-color . "white")
+      (list-matching-lines-face . bold)
+      (view-highlight-face . highlight))
+     (default ((t (nil))))
+     (bold ((t (:bold t))))
+     (bold-italic ((t (:italic t :bold t))))
+     (fringe ((t (:background "black"))))
+     (font-lock-builtin-face ((t (:foreground "#aaccff"))))
+     (font-lock-comment-face ((t (:italic t :foreground "#9933cc"))))
+     (font-lock-comment-delimiter-face ((t (:foreground "#9933cc"))))
+     (font-lock-constant-face ((t (:foreground "#339999"))))
+     (font-lock-function-name-face ((t (:foreground "#ffcc00"))))
+     (font-lock-keyword-face ((t (:foreground "#ff6600"))))
+     (font-lock-preprocessor-face ((t (:foreground "#aaffff"))))
+     (font-lock-reference-face ((t (:foreground "LightSteelBlue"))))
+     (font-lock-string-face ((t (:foreground "#66FF00"))))
+     (font-lock-doc-face ((t (:foreground "LightSalmon"))))
+     (font-lock-type-face ((t (:foreground "#FFFFFF"))))
+     (font-lock-variable-name-face ((t (:foreground "#FFFFFF"))))
+     (font-lock-warning-face ((t (:bold t :foreground "Pink"))))
+     (paren-face-match-light ((t (:background "#222222"))))
+     (highlight ((t (:background "darkolivegreen"))))
+     (italic ((t (:italic t))))
+     (modeline ((t (:background "#444444" :foreground "black"))))
+     (modeline-buffer-id ((t (:background "#444444" :foreground
+"black"))))
+     (modeline-mousable ((t (:background "#444444" :foreground
+"black"))))
+     (modeline-mousable-minor-mode ((t (:background
+"#444444" :foreground "black"))))
+     (region ((t (:background "#555577"))))
+     (primary-selection ((t (:background "#555577"))))
+     (isearch ((t (:background "#555555"))))
+     (zmacs-region ((t (:background "#555577"))))
+     (secondary-selection ((t (:background "darkslateblue"))))
+     (flymake-errline ((t (:background "LightSalmon" :foreground
+"black"))))
+     (flymake-warnline ((t (:background "LightSteelBlue" :foreground
+"black"))))
+     (underline ((t (:underline t))))
+     (minibuffer-prompt ((t (:bold t :foreground "#ff6600")))))))
+
+
+
+
+(defun color-theme-twilight ()
+  "Color theme by Marcus Crafter, based off the TextMate Twilight theme, created 2008-04-18"
+  (interactive)
+  (color-theme-install
+	'(color-theme-twilight
+	  ((background-color . "#141414")
+		(background-mode . dark)
+		(border-color . "black")
+		(cursor-color . "#A7A7A7")
+		(foreground-color . "#F8F8F8")
+		(mouse-color . "sienna1"))
+	  (default ((t (:background "#141414" :foreground "#CACACA"))))
+	  (blue ((t (:foreground "blue"))))
+	  (border-glyph ((t (nil))))
+	  (buffers-tab ((t (:background "#141414" :foreground "#CACACA"))))
+	  (font-lock-builtin-face ((t (:foreground "#CACACA"))))
+	  (font-lock-comment-face ((t (:foreground "#5F5A60"))))
+	  (font-lock-constant-face ((t (:foreground "#CF6A4C"))))
+	  (font-lock-doc-string-face ((t (:foreground "DarkOrange"))))
+	  (font-lock-function-name-face ((t (:foreground "#9B703F"))))
+	  (font-lock-keyword-face ((t (:foreground "#CDA869"))))
+	  (font-lock-preprocessor-face ((t (:foreground "Aquamarine"))))
+	  (font-lock-reference-face ((t (:foreground "SlateBlue"))))
+
+	  (font-lock-regexp-grouping-backslash ((t (:foreground "#E9C062"))))
+	  (font-lock-regexp-grouping-construct ((t (:foreground "red"))))
+
+	  (minibuffer-prompt ((t (:foreground "#5F5A60"))))
+	  (ido-subdir ((t (:foreground "#CF6A4C"))))
+	  (ido-first-match ((t (:foreground "#8F9D6A"))))
+	  (ido-only-match ((t (:foreground "#8F9D6A"))))
+	  (mumamo-background-chunk-submode ((t (:background "#222222"))))
+
+	  (font-lock-string-face ((t (:foreground "#8F9D6A"))))
+	  (font-lock-type-face ((t (:foreground "#9B703F"))))
+	  (font-lock-variable-name-face ((t (:foreground "#7587A6"))))
+	  (font-lock-warning-face ((t (:background "#EE799F" :foreground "red"))))
+	  (gui-element ((t (:background "#D4D0C8" :foreground "black"))))
+	  (region ((t (:background "#27292A"))))
+	  (mode-line ((t (:background "grey75" :foreground "black"))))
+	  (highlight ((t (:background "#111111"))))
+	  (highline-face ((t (:background "SeaGreen"))))
+	  (left-margin ((t (nil))))
+	  (text-cursor ((t (:background "yellow" :foreground "black"))))
+	  (toolbar ((t (nil))))
+	  (underline ((nil (:underline nil))))
+	  (zmacs-region ((t (:background "snow" :foreground "blue")))))))
